@@ -1,11 +1,8 @@
-// variables for page elements
-// time and score
 let timeEl = document.querySelector("p.time");
 let secondsLeft = 75;
 let scoreEl = document.querySelector("#score");
 
 // sections
-// section intro
 const introEl = document.querySelector("#intro");
 
 // section questions
@@ -13,19 +10,41 @@ const introEl = document.querySelector("#intro");
 const questionsEl = document.querySelector("#questions");
 //where question goes
 let questionEl = document.querySelector("#question");
-// how many questions they have answered
+
 let questionCount = 0;
 // div yaynay
 const yaynayEl = document.querySelector("#yaynay");
 
 // section final
 const finalEl = document.querySelector("#final");
-// user initials
+
 let initialsInput = document.querySelector("#initials");
 
 // section highscores
 const highscoresEl = document.querySelector("#highscores");
-// ordered list
+
 let scoreListEl = document.querySelector("#score-list");
 // array of scores
 let scoreList = [];
+
+// buttons
+// start
+const startBtn = document.querySelector("#start");
+// answer button class
+const ansBtn = document.querySelectorAll("button.ansBtn")
+// answer1
+const ans1Btn = document.querySelector("#answer1");
+// answer2
+const ans2Btn = document.querySelector("#answer2");
+// answer3
+const ans3Btn = document.querySelector("#answer3");
+// answer4
+const ans4Btn = document.querySelector("#answer4");
+// submit-score
+const submitScrBtn = document.querySelector("#submit-score");
+// goback
+const goBackBtn = document.querySelector("#goback");
+// clearscores
+const clearScrBtn = document.querySelector("#clearscores");
+// view-scores
+const viewScrBtn = document.querySelector("#view-scores");
